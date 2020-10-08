@@ -87,4 +87,78 @@ body {
 #mainContentContainer {
   padding: 1rem 3rem;
 }
+
+#mastHeadContainer button:not(.searchButton) {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  padding: .8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+.logoContainer {
+  width: 15rem;
+}
+
+.logoContainer img {
+  height: 1.7rem;
+  margin-left: .8rem;
+}
+
+.searchBarContainer {
+  margin: 0 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.searchBarContainer input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .2rem .6rem;
+  max-width: 70%;
+  font-weight: 100;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  border-top-left-radius: .2rem;
+  border-bottom-left-radius: .2rem;
+  border-right: none;
+  height: 3.2rem;
+  -webkit-box-shadow: #eee 0px .1rem .2rem 0px inset;
+          box-shadow: #eee 0px .1rem .2rem 0px inset;
+}
+
+.searchBarContainer form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.searchBarContainer form button {
+  height: 3.2rem;
+  background-color: #f8f8f8;
+  border: .1rem solid #d3d3d3;
+  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+  cursor: pointer;
+  width: 6.5rem;
+}
+
+.searchBarContainer form button img {
+  height: 2rem;
+  width: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */

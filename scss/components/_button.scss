@@ -1,0 +1,11 @@
+#mastHeadContainer {
+    button:not(.searchButton) {
+        cursor: pointer;
+        width: 4rem;
+        height: 4rem;
+        padding: .8rem;
+        box-sizing: border-box;
+        border: none;
+        background-color: transparent;
+    }
+}
