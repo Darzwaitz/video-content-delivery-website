@@ -33,6 +33,10 @@ body {
   margin: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #pageContainer {
   width: 100%;
   height: 100%;
@@ -86,9 +90,16 @@ body {
 
 #mainContentContainer {
   padding: 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-#mastHeadContainer button:not(.searchButton) {
+#mastHeadContainer button:not(.searchButton),
+#mastHeadContainer .rightIcons img {
   cursor: pointer;
   width: 4rem;
   height: 4rem;
@@ -97,6 +108,12 @@ body {
           box-sizing: border-box;
   border: none;
   background-color: transparent;
+  text-decoration: none;
+}
+
+#mastHeadContainer .rightIcons {
+  height: 100%;
+  text-decoration: none;
 }
 
 .logoContainer {
@@ -160,5 +177,16 @@ body {
 .searchBarContainer form button img {
   height: 2rem;
   width: 2rem;
+}
+
+.columnContainer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #fff;
+  min-height: 30rem;
+  padding: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0.1rem 0.2rem;
+          box-shadow: rgba(0, 0, 0, 0.1) 0 0.1rem 0.2rem;
 }
 /*# sourceMappingURL=styles.css.map */

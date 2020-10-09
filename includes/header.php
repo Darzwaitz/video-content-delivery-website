@@ -43,6 +43,15 @@
                 </form>
             </div>
 
+            <div class="rightIcons">
+                <a href="upload.php">
+                    <img src="assets/icons/upload.png" alt="upload icon" title="Upload" class="upload">
+                </a>
+                <a href="#">
+                    <img src="assets/imgs/profilePictures/default.png" alt="upload icon" title="Profile" class="upload">
+                </a>
+            </div>
+
         </div>
         <!--/mastHeadContainer -->
 
@@ -53,16 +62,3 @@
 
         <div id="mainSectionContainer">
             <div id="mainContentContainer">
-                Test this section
-            </div>
-        </div>
-        <!--/mainSectionContainer -->
-
-
-    </div>
-    <!-- pageContainer -->
-
-
-</body>
-
-</html>
